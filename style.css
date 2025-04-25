@@ -5,6 +5,21 @@ body {
     height: 100vh;
     margin: 0;
     overflow: auto;
+    position: relative;
+}
+
+.header-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.header-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .grid-container {
